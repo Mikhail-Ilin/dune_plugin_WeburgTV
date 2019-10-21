@@ -24,7 +24,7 @@ class WeburgTVSetupScreen extends AbstractControlsScreen
     }
 
     public function do_get_control_defs(&$plugin_cookies) {
-        $defs = array();
+   /*     $defs = array();
 
         $buffer_time = isset($plugin_cookies->buffer_time) ?
             $plugin_cookies->buffer_time : '0';
@@ -42,7 +42,7 @@ class WeburgTVSetupScreen extends AbstractControlsScreen
 
         $this->add_combobox($defs,'epg_shift', 'Коррекция программы (час):',$epg_shift, $shift_ops, 0, true);
                   
-   //     $this->add_text_field($defs, 'buffer_time', 'Время буфферизации', $buffer_time, true, false, false, true, 10, false, true);
+   //     $this->add_text_field($defs, 'buffer_time', 'Время буфферизации', $buffer_time, true, false, false, true, 10, false, true);*/
 
         return $defs;
     }
