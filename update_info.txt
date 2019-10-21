@@ -1,0 +1,5 @@
+version_index=50
+version=5.2.9 (23.10.16)
+download_url=http://dune-club.info/plugins/update/altiptv3/dune_plugin_altiptv_5.2.9.tar.gz
+space_needed=1400000
+last_critical_version_index=1
